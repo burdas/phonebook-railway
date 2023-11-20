@@ -4,6 +4,7 @@
   "description": "Backend of phonebook",
   "main": "index.js",
   "scripts": {
+    "build": "rd /s/q dist || cd ./../../part2/phonebook && npm run build && cd ./../../part3/phonebook && xcopy \"./../../part2/phonebook/dist\" \"./dist\" /E /H /C /I",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "test"
