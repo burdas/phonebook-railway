@@ -9,6 +9,7 @@
     "dev": "nodemon index.js",
     "test": "test"
   },
+  "proxy": "http://localhost:3001",
   "author": "Marcos Burdaspar",
   "license": "ISC",
   "dependencies": {
